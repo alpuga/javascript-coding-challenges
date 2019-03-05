@@ -1,2 +1,9 @@
 /*jshint esversion: 6 */
-console.log("he");
+
+/* Even Finonacci Numbers Sum */
+
+function fiboEvenSum(n) {
+  return true;
+}
+
+fiboEvenSum(10);
