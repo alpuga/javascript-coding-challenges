@@ -30,4 +30,4 @@ function fiboEvenSum(n) {
 }
 
 //test
-fiboEvenSum(0);
+fiboEvenSum(10);
