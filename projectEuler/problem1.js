@@ -17,4 +17,4 @@ function multiplesOf3and5(number) {
   return sum;
 }
 
-multiplesOf3and5(49);
+multiplesOf3and5(10);
