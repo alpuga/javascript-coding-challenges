@@ -20,6 +20,7 @@ function largestPrimeFactor(number) {
       prime++;
     }
   }
+
   return prime;
 }
 
