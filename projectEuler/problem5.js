@@ -9,7 +9,7 @@ numbers from 1 to n?
 */
 
 // Setting up functions using Euclidean Recursive Algo.
-function scm(a, b) {
+function lcm(a, b) {
   return Math.abs(a * b) / gcd(a, b);
 }
 
@@ -20,13 +20,13 @@ function gcd(a, b) {
 }
 
 function smallestMult(n) {
-  let smallestCM = 1;
+  let leastCM = 1;
 
   // Getting the smallest common multiple in the range.
   for (let i = 2; i <= n; i++) {
-    smallestCM = scm(smallestCM, i);
+    leastCM = lcm(leastCM, i);
   }
-  return smallestCM;
+  return leastCM;
 }
 
 smallestMult(10);
