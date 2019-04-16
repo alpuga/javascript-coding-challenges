@@ -1,6 +1,6 @@
 /*jshint esversion: 6 */
 
-/* Return english translated sentence from the passed binary string*/
+/* Return english translated sentence from the passed binary string.*/
 
 function binaryAgent(str) {
   let individual = str.split(" ");
